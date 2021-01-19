@@ -1,0 +1,70 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.expression {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fraction {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    &-border {
+        width: 100%;
+        position: absolute;
+        border: 1px solid black;
+    }
+}
+
+.number {
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    outline: none;
+    text-align: center;
+    &-numerator {
+        margin-bottom: 10px;
+    }
+    &-denomunator {
+        margin-top: 10px;
+    }
+}
+
+.plus {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), #000;
+    background-position: center;
+    background-size: 50% 2px, 2px 50%;
+    background-repeat: no-repeat;
+}
+
+.alt {
+    background: linear-gradient(#000, #000), linear-gradient(#000, #000);
+    background-position: center;
+    background-size: 50% 2px, 2px 50%;
+    background-repeat: no-repeat;
+}
+
+.equally {
+    width: 30px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.error-message {
+    margin-top: 10px;
+    text-align: center;
+}
